@@ -7,7 +7,7 @@ import { SpotifyTrack, SpotifyTrackDocument } from './spotify-track.schema';
 @Injectable()
 export class SpotifyService {
   private readonly apiUrl = 'https://api.spotify.com/v1';
-  private readonly token = 'YOUR_SPOTIFY_API_TOKEN'; // Substitua pelo seu token de acesso do Spotify
+  private readonly token = 'API_TOKEN'; // Não informado devido a questões de segurança.
 
   constructor(
     private httpService: HttpService,
